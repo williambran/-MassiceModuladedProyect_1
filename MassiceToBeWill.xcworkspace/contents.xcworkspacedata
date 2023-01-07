@@ -2,13 +2,13 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:../data/data.xcodeproj">
+      location = "group:../-MassiceLayerPresentation_/presentation.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:../presentation/presentation.xcodeproj">
+      location = "group:../-MassiceLayerDomain_/domain.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:../domain/domain.xcodeproj">
+      location = "group:../-MassiceLayerData_/data.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:MassiceToBeWill.xcodeproj">
