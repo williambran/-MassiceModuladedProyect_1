@@ -1,0 +1,776 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02D038E13831116F325740B0 /* Pods_MassiceToBeWill.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE704EB28745B7AB8BB8B1AC /* Pods_MassiceToBeWill.framework */; };
+		11608629DAFF7F5C46B58268 /* Pods_MassiceToBeWillTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 368B60AE511586FBF438E6F3 /* Pods_MassiceToBeWillTests.framework */; };
+		89C8688E2954C128001868DF /* MassiceToBeWillApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C8688D2954C128001868DF /* MassiceToBeWillApp.swift */; };
+		89C868902954C128001868DF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C8688F2954C128001868DF /* ContentView.swift */; };
+		89C868922954C12C001868DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89C868912954C12C001868DF /* Assets.xcassets */; };
+		89C868952954C12C001868DF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89C868942954C12C001868DF /* Preview Assets.xcassets */; };
+		89C8689F2954C12D001868DF /* MassiceToBeWillTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C8689E2954C12D001868DF /* MassiceToBeWillTests.swift */; };
+		89C868A92954C12D001868DF /* MassiceToBeWillUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C868A82954C12D001868DF /* MassiceToBeWillUITests.swift */; };
+		89C868AB2954C12D001868DF /* MassiceToBeWillUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C868AA2954C12D001868DF /* MassiceToBeWillUITestsLaunchTests.swift */; };
+		89C8692E2954C881001868DF /* data.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89C8692D2954C881001868DF /* data.framework */; };
+		89C8692F2954C881001868DF /* data.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 89C8692D2954C881001868DF /* data.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		89C869322954C888001868DF /* domain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89C869312954C888001868DF /* domain.framework */; };
+		89C869332954C888001868DF /* domain.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 89C869312954C888001868DF /* domain.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		89C869352954C88F001868DF /* presentation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89C869342954C88F001868DF /* presentation.framework */; };
+		89C869362954C88F001868DF /* presentation.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 89C869342954C88F001868DF /* presentation.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		89C8694E2954DA11001868DF /* AppEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C8694D2954DA11001868DF /* AppEnvironment.swift */; };
+		89C869512954DA4C001868DF /* PostDI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C869502954DA4C001868DF /* PostDI.swift */; };
+		89C869532954DA77001868DF /* AppDI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C869522954DA77001868DF /* AppDI.swift */; };
+		89C8695529552586001868DF /* FSSceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C8695429552586001868DF /* FSSceneDelegate.swift */; };
+		89C86957295525E2001868DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C86956295525E2001868DF /* AppDelegate.swift */; };
+		E6DC12A91F3ED7A0147AF982 /* Pods_MassiceToBeWill_MassiceToBeWillUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCC0AE4D4B235BF17319BAA2 /* Pods_MassiceToBeWill_MassiceToBeWillUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		89C8689B2954C12D001868DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 89C868822954C127001868DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 89C868892954C128001868DF;
+			remoteInfo = MassiceToBeWill;
+		};
+		89C868A52954C12D001868DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 89C868822954C127001868DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 89C868892954C128001868DF;
+			remoteInfo = MassiceToBeWill;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		89C869302954C882001868DF /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				89C869362954C88F001868DF /* presentation.framework in Embed Frameworks */,
+				89C869332954C888001868DF /* domain.framework in Embed Frameworks */,
+				89C8692F2954C881001868DF /* data.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		164B084FD0314F5AE114B13D /* Pods-MassiceToBeWillTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MassiceToBeWillTests.debug.xcconfig"; path = "Target Support Files/Pods-MassiceToBeWillTests/Pods-MassiceToBeWillTests.debug.xcconfig"; sourceTree = "<group>"; };
+		368B60AE511586FBF438E6F3 /* Pods_MassiceToBeWillTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MassiceToBeWillTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		577009FC9CB55CF92C16A989 /* Pods-MassiceToBeWill-MassiceToBeWillUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MassiceToBeWill-MassiceToBeWillUITests.debug.xcconfig"; path = "Target Support Files/Pods-MassiceToBeWill-MassiceToBeWillUITests/Pods-MassiceToBeWill-MassiceToBeWillUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8704F9372EFDC2C2CF00DE82 /* Pods-MassiceToBeWill.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MassiceToBeWill.release.xcconfig"; path = "Target Support Files/Pods-MassiceToBeWill/Pods-MassiceToBeWill.release.xcconfig"; sourceTree = "<group>"; };
+		89C8688A2954C128001868DF /* MassiceToBeWill.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MassiceToBeWill.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		89C8688D2954C128001868DF /* MassiceToBeWillApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MassiceToBeWillApp.swift; sourceTree = "<group>"; };
+		89C8688F2954C128001868DF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		89C868912954C12C001868DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		89C868942954C12C001868DF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		89C8689A2954C12D001868DF /* MassiceToBeWillTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MassiceToBeWillTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		89C8689E2954C12D001868DF /* MassiceToBeWillTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MassiceToBeWillTests.swift; sourceTree = "<group>"; };
+		89C868A42954C12D001868DF /* MassiceToBeWillUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MassiceToBeWillUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		89C868A82954C12D001868DF /* MassiceToBeWillUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MassiceToBeWillUITests.swift; sourceTree = "<group>"; };
+		89C868AA2954C12D001868DF /* MassiceToBeWillUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MassiceToBeWillUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		89C8692D2954C881001868DF /* data.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = data.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		89C869312954C888001868DF /* domain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = domain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		89C869342954C88F001868DF /* presentation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = presentation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		89C8694D2954DA11001868DF /* AppEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppEnvironment.swift; sourceTree = "<group>"; };
+		89C869502954DA4C001868DF /* PostDI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDI.swift; sourceTree = "<group>"; };
+		89C869522954DA77001868DF /* AppDI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDI.swift; sourceTree = "<group>"; };
+		89C8695429552586001868DF /* FSSceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FSSceneDelegate.swift; sourceTree = "<group>"; };
+		89C86956295525E2001868DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		94807C14D460537C4AE0440C /* Pods-MassiceToBeWill.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MassiceToBeWill.debug.xcconfig"; path = "Target Support Files/Pods-MassiceToBeWill/Pods-MassiceToBeWill.debug.xcconfig"; sourceTree = "<group>"; };
+		D5D651413726343E61033B8F /* Pods-MassiceToBeWill-MassiceToBeWillUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MassiceToBeWill-MassiceToBeWillUITests.release.xcconfig"; path = "Target Support Files/Pods-MassiceToBeWill-MassiceToBeWillUITests/Pods-MassiceToBeWill-MassiceToBeWillUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DCC0AE4D4B235BF17319BAA2 /* Pods_MassiceToBeWill_MassiceToBeWillUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MassiceToBeWill_MassiceToBeWillUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F87A8BA7D753FB7282C06D45 /* Pods-MassiceToBeWillTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MassiceToBeWillTests.release.xcconfig"; path = "Target Support Files/Pods-MassiceToBeWillTests/Pods-MassiceToBeWillTests.release.xcconfig"; sourceTree = "<group>"; };
+		FE704EB28745B7AB8BB8B1AC /* Pods_MassiceToBeWill.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MassiceToBeWill.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		89C868872954C128001868DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89C8692E2954C881001868DF /* data.framework in Frameworks */,
+				89C869322954C888001868DF /* domain.framework in Frameworks */,
+				89C869352954C88F001868DF /* presentation.framework in Frameworks */,
+				02D038E13831116F325740B0 /* Pods_MassiceToBeWill.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89C868972954C12D001868DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11608629DAFF7F5C46B58268 /* Pods_MassiceToBeWillTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89C868A12954C12D001868DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6DC12A91F3ED7A0147AF982 /* Pods_MassiceToBeWill_MassiceToBeWillUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		37809599A44291D286B77FDC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				89C869342954C88F001868DF /* presentation.framework */,
+				89C869312954C888001868DF /* domain.framework */,
+				89C8692D2954C881001868DF /* data.framework */,
+				FE704EB28745B7AB8BB8B1AC /* Pods_MassiceToBeWill.framework */,
+				DCC0AE4D4B235BF17319BAA2 /* Pods_MassiceToBeWill_MassiceToBeWillUITests.framework */,
+				368B60AE511586FBF438E6F3 /* Pods_MassiceToBeWillTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		89C868812954C127001868DF = {
+			isa = PBXGroup;
+			children = (
+				89C8688C2954C128001868DF /* MassiceToBeWill */,
+				89C8689D2954C12D001868DF /* MassiceToBeWillTests */,
+				89C868A72954C12D001868DF /* MassiceToBeWillUITests */,
+				89C8688B2954C128001868DF /* Products */,
+				FCA984F9C8137C0B62418CC7 /* Pods */,
+				37809599A44291D286B77FDC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		89C8688B2954C128001868DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				89C8688A2954C128001868DF /* MassiceToBeWill.app */,
+				89C8689A2954C12D001868DF /* MassiceToBeWillTests.xctest */,
+				89C868A42954C12D001868DF /* MassiceToBeWillUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		89C8688C2954C128001868DF /* MassiceToBeWill */ = {
+			isa = PBXGroup;
+			children = (
+				89C8694F2954DA34001868DF /* AppDI */,
+				89C8694C2954D9D0001868DF /* AppEnvironment */,
+				89C8688D2954C128001868DF /* MassiceToBeWillApp.swift */,
+				89C8688F2954C128001868DF /* ContentView.swift */,
+				89C868912954C12C001868DF /* Assets.xcassets */,
+				89C868932954C12C001868DF /* Preview Content */,
+				89C8695429552586001868DF /* FSSceneDelegate.swift */,
+				89C86956295525E2001868DF /* AppDelegate.swift */,
+			);
+			path = MassiceToBeWill;
+			sourceTree = "<group>";
+		};
+		89C868932954C12C001868DF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				89C868942954C12C001868DF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		89C8689D2954C12D001868DF /* MassiceToBeWillTests */ = {
+			isa = PBXGroup;
+			children = (
+				89C8689E2954C12D001868DF /* MassiceToBeWillTests.swift */,
+			);
+			path = MassiceToBeWillTests;
+			sourceTree = "<group>";
+		};
+		89C868A72954C12D001868DF /* MassiceToBeWillUITests */ = {
+			isa = PBXGroup;
+			children = (
+				89C868A82954C12D001868DF /* MassiceToBeWillUITests.swift */,
+				89C868AA2954C12D001868DF /* MassiceToBeWillUITestsLaunchTests.swift */,
+			);
+			path = MassiceToBeWillUITests;
+			sourceTree = "<group>";
+		};
+		89C8694C2954D9D0001868DF /* AppEnvironment */ = {
+			isa = PBXGroup;
+			children = (
+				89C8694D2954DA11001868DF /* AppEnvironment.swift */,
+			);
+			path = AppEnvironment;
+			sourceTree = "<group>";
+		};
+		89C8694F2954DA34001868DF /* AppDI */ = {
+			isa = PBXGroup;
+			children = (
+				89C869502954DA4C001868DF /* PostDI.swift */,
+				89C869522954DA77001868DF /* AppDI.swift */,
+			);
+			path = AppDI;
+			sourceTree = "<group>";
+		};
+		FCA984F9C8137C0B62418CC7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				94807C14D460537C4AE0440C /* Pods-MassiceToBeWill.debug.xcconfig */,
+				8704F9372EFDC2C2CF00DE82 /* Pods-MassiceToBeWill.release.xcconfig */,
+				577009FC9CB55CF92C16A989 /* Pods-MassiceToBeWill-MassiceToBeWillUITests.debug.xcconfig */,
+				D5D651413726343E61033B8F /* Pods-MassiceToBeWill-MassiceToBeWillUITests.release.xcconfig */,
+				164B084FD0314F5AE114B13D /* Pods-MassiceToBeWillTests.debug.xcconfig */,
+				F87A8BA7D753FB7282C06D45 /* Pods-MassiceToBeWillTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		89C868892954C128001868DF /* MassiceToBeWill */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89C868AE2954C12D001868DF /* Build configuration list for PBXNativeTarget "MassiceToBeWill" */;
+			buildPhases = (
+				33163A750009D692A1B283F2 /* [CP] Check Pods Manifest.lock */,
+				89C868862954C128001868DF /* Sources */,
+				89C868872954C128001868DF /* Frameworks */,
+				89C868882954C128001868DF /* Resources */,
+				89C869302954C882001868DF /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MassiceToBeWill;
+			productName = MassiceToBeWill;
+			productReference = 89C8688A2954C128001868DF /* MassiceToBeWill.app */;
+			productType = "com.apple.product-type.application";
+		};
+		89C868992954C12D001868DF /* MassiceToBeWillTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89C868B12954C12D001868DF /* Build configuration list for PBXNativeTarget "MassiceToBeWillTests" */;
+			buildPhases = (
+				653D8FCD37ABEADAD08F86FD /* [CP] Check Pods Manifest.lock */,
+				89C868962954C12D001868DF /* Sources */,
+				89C868972954C12D001868DF /* Frameworks */,
+				89C868982954C12D001868DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				89C8689C2954C12D001868DF /* PBXTargetDependency */,
+			);
+			name = MassiceToBeWillTests;
+			productName = MassiceToBeWillTests;
+			productReference = 89C8689A2954C12D001868DF /* MassiceToBeWillTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		89C868A32954C12D001868DF /* MassiceToBeWillUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89C868B42954C12D001868DF /* Build configuration list for PBXNativeTarget "MassiceToBeWillUITests" */;
+			buildPhases = (
+				6BF985A246D3E11010653106 /* [CP] Check Pods Manifest.lock */,
+				89C868A02954C12D001868DF /* Sources */,
+				89C868A12954C12D001868DF /* Frameworks */,
+				89C868A22954C12D001868DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				89C868A62954C12D001868DF /* PBXTargetDependency */,
+			);
+			name = MassiceToBeWillUITests;
+			productName = MassiceToBeWillUITests;
+			productReference = 89C868A42954C12D001868DF /* MassiceToBeWillUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		89C868822954C127001868DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					89C868892954C128001868DF = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					89C868992954C12D001868DF = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 89C868892954C128001868DF;
+					};
+					89C868A32954C12D001868DF = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 89C868892954C128001868DF;
+					};
+				};
+			};
+			buildConfigurationList = 89C868852954C127001868DF /* Build configuration list for PBXProject "MassiceToBeWill" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 89C868812954C127001868DF;
+			productRefGroup = 89C8688B2954C128001868DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				89C868892954C128001868DF /* MassiceToBeWill */,
+				89C868992954C12D001868DF /* MassiceToBeWillTests */,
+				89C868A32954C12D001868DF /* MassiceToBeWillUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		89C868882954C128001868DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89C868952954C12C001868DF /* Preview Assets.xcassets in Resources */,
+				89C868922954C12C001868DF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89C868982954C12D001868DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89C868A22954C12D001868DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		33163A750009D692A1B283F2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MassiceToBeWill-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		653D8FCD37ABEADAD08F86FD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MassiceToBeWillTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6BF985A246D3E11010653106 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MassiceToBeWill-MassiceToBeWillUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		89C868862954C128001868DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89C868902954C128001868DF /* ContentView.swift in Sources */,
+				89C8688E2954C128001868DF /* MassiceToBeWillApp.swift in Sources */,
+				89C869532954DA77001868DF /* AppDI.swift in Sources */,
+				89C869512954DA4C001868DF /* PostDI.swift in Sources */,
+				89C86957295525E2001868DF /* AppDelegate.swift in Sources */,
+				89C8694E2954DA11001868DF /* AppEnvironment.swift in Sources */,
+				89C8695529552586001868DF /* FSSceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89C868962954C12D001868DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89C8689F2954C12D001868DF /* MassiceToBeWillTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89C868A02954C12D001868DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89C868AB2954C12D001868DF /* MassiceToBeWillUITestsLaunchTests.swift in Sources */,
+				89C868A92954C12D001868DF /* MassiceToBeWillUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		89C8689C2954C12D001868DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 89C868892954C128001868DF /* MassiceToBeWill */;
+			targetProxy = 89C8689B2954C12D001868DF /* PBXContainerItemProxy */;
+		};
+		89C868A62954C12D001868DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 89C868892954C128001868DF /* MassiceToBeWill */;
+			targetProxy = 89C868A52954C12D001868DF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		89C868AC2954C12D001868DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		89C868AD2954C12D001868DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		89C868AF2954C12D001868DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94807C14D460537C4AE0440C /* Pods-MassiceToBeWill.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MassiceToBeWill/Preview Content\"";
+				DEVELOPMENT_TEAM = 6QNXMD5AL4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.org.MassiceToBeWill;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		89C868B02954C12D001868DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8704F9372EFDC2C2CF00DE82 /* Pods-MassiceToBeWill.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MassiceToBeWill/Preview Content\"";
+				DEVELOPMENT_TEAM = 6QNXMD5AL4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.org.MassiceToBeWill;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		89C868B22954C12D001868DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 164B084FD0314F5AE114B13D /* Pods-MassiceToBeWillTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6QNXMD5AL4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.org.MassiceToBeWillTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MassiceToBeWill.app/MassiceToBeWill";
+			};
+			name = Debug;
+		};
+		89C868B32954C12D001868DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F87A8BA7D753FB7282C06D45 /* Pods-MassiceToBeWillTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6QNXMD5AL4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.org.MassiceToBeWillTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MassiceToBeWill.app/MassiceToBeWill";
+			};
+			name = Release;
+		};
+		89C868B52954C12D001868DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 577009FC9CB55CF92C16A989 /* Pods-MassiceToBeWill-MassiceToBeWillUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6QNXMD5AL4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.org.MassiceToBeWillUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MassiceToBeWill;
+			};
+			name = Debug;
+		};
+		89C868B62954C12D001868DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5D651413726343E61033B8F /* Pods-MassiceToBeWill-MassiceToBeWillUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6QNXMD5AL4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.org.MassiceToBeWillUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MassiceToBeWill;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		89C868852954C127001868DF /* Build configuration list for PBXProject "MassiceToBeWill" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89C868AC2954C12D001868DF /* Debug */,
+				89C868AD2954C12D001868DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89C868AE2954C12D001868DF /* Build configuration list for PBXNativeTarget "MassiceToBeWill" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89C868AF2954C12D001868DF /* Debug */,
+				89C868B02954C12D001868DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89C868B12954C12D001868DF /* Build configuration list for PBXNativeTarget "MassiceToBeWillTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89C868B22954C12D001868DF /* Debug */,
+				89C868B32954C12D001868DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89C868B42954C12D001868DF /* Build configuration list for PBXNativeTarget "MassiceToBeWillUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89C868B52954C12D001868DF /* Debug */,
+				89C868B62954C12D001868DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 89C868822954C127001868DF /* Project object */;
+}
